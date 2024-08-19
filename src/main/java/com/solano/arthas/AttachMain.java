@@ -37,7 +37,7 @@ public class AttachMain {
         String processId = scanner.nextLine();
 
         VirtualMachine vm = VirtualMachine.attach(processId);
-        vm.loadAgent("/Users/solano/Documents/coding/github/java-enhance-tools/time-cost-agent/target/time-cost-agent-1.0-SNAPSHOT-jar-with-dependencies.jar");
+        vm.loadAgent("/Users/solano/Documents/coding/github/easy-arthas/target/easy-arthas-1.0-SNAPSHOT-jar-with-dependencies.jar");
     }
 }
 

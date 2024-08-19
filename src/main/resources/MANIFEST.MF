@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Premain-Class: com.solano.TimeCostAgentMain
-Agent-Class: com.solano.TimeCostAgentMain
+Premain-Class: com.solano.arthas.AttachActions
+Agent-Class: com.solano.arthas.AttachActions
 Can-Redefine-Classes: true
 Can-Retransform-Classes: true
 Can-Set-Native-Method-Prefix: true
